@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "What's up?",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How’s it going?",
+        "I’m doing great, thanks for asking!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon!",
+        "Take care!",
+        "It was nice chatting with you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Cheers"
+      ],
+      "responses": [
+        "You’re welcome!",
+        "Glad I could help!",
+        "Anytime!",
+        "No problem!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "Tell me about yourself",
+        "Are you a bot?",
+        "What can you do?"
+      ],
+      "responses": [
+        "I’m ChatBot, your personal assistant!",
+        "I’m a chatbot created to answer your questions and make life easier.",
+        "Yes, I’m a bot, but a friendly one 😄"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need assistance",
+        "Can you help me?",
+        "I am stuck",
+        "What can you do for me?"
+      ],
+      "responses": [
+        "I can answer your questions, tell jokes, give weather updates, and more!",
+        "I’m here to help! Try asking me about the time, date, or just chat casually."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the time",
+        "Can you give me the time?",
+        "Do you know the time?"
+      ],
+      "responses": [
+        "I can’t tell exact time yet, but you can check your device’s clock ⏰",
+        "Right now I don’t give live time, but I can add that feature later!"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What’s the date today?",
+        "Tell me the date",
+        "What day is it?",
+        "Give me today’s date"
+      ],
+      "responses": [
+        "I can’t access live dates yet, but you can check your calendar 📅",
+        "Not sure about the exact date, but today is definitely a good day!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Say something funny",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Why don’t skeletons fight each other? Because they don’t have the guts! 😂",
+        "I told my computer I needed a break… now it won’t stop sending me Kit-Kats.",
+        "Why was the math book sad? Because it had too many problems."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What’s the weather like?",
+        "Is it raining?",
+        "How’s the weather?",
+        "Tell me today’s weather"
+      ],
+      "responses": [
+        "I don’t have live weather updates yet, but you can check a weather app ☀️🌧️",
+        "I can’t say for sure, but I hope it’s nice outside where you are!"
+      ]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": [
+        "How’s your day?",
+        "What are you doing?",
+        "Do you like humans?",
+        "Do you ever get tired?"
+      ],
+      "responses": [
+        "I don’t have days like humans, but I enjoy chatting with you!",
+        "Right now, I’m just talking to you 😄",
+        "Of course I like humans! You created me.",
+        "I never get tired — I can chat with you all day long!"
+      ]
+    }
+  ]
+}
